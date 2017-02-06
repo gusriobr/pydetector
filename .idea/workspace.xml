@@ -18,14 +18,64 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="camera_tracker.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tracking/camera_tracker.py">
+      <file leaf-file-name="camera_tracker.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracking/feature_based/camera_tracker.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+              <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="camshift.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracking/segmentation/camshift.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="64" column="59" lean-forward="true" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="load_object.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tracking/load_object.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-902">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tracking-features.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracking/feature_based/tracking-features.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="camaeracontours.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracking/lab/camaeracontours.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imutils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracking/imutils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-176">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,7 +93,7 @@
         </entry>
       </file>
       <file leaf-file-name="feature_tracker.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracking/feature_tracker.py">
+        <entry file="file://$PROJECT_DIR$/tracking/feature_based/feature_tracker.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
               <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
@@ -56,7 +106,7 @@
         </entry>
       </file>
       <file leaf-file-name="kalman.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracking/kalman.py">
+        <entry file="file://$PROJECT_DIR$/tracking/segmentation/kalman.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
               <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
@@ -148,6 +198,7 @@
         <option value="$PROJECT_DIR$/tracking/camera_tracker.py" />
         <option value="$PROJECT_DIR$/tracking/feature_tracker.py" />
         <option value="$PROJECT_DIR$/tracking/kalman.py" />
+        <option value="$PROJECT_DIR$/tracking/segmentation.py" />
       </list>
     </option>
   </component>
@@ -241,15 +292,18 @@
     <property name="SearchEverywhereHistoryKey" value="OrbDe&#9;null&#9;null&#10;BFMat&#9;null&#9;null&#10;bfmatcher&#9;null&#9;null&#10;drawKeypoints&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tracking/lab" />
+      <recent name="$PROJECT_DIR$/tracking/feature_based" />
+      <recent name="$PROJECT_DIR$/tracking/segmentation" />
+      <recent name="$PROJECT_DIR$/tracking/local_features" />
+      <recent name="$PROJECT_DIR$/book" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tracking" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tracking/lab" />
-      <recent name="$PROJECT_DIR$/book" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.kalman">
+  <component name="RunManager" selected="Python.camshift">
     <configuration default="false" name="camera_tracker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,24 +316,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyimg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/camera_tracker.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="feature_tracker" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyimg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/feature_tracker.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/local_features/camera_tracker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -296,7 +333,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyimg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/camaeracontours.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/lab/camaeracontours.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -330,7 +367,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyimg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/kalman.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/segmentation/kalman.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="camshift" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyimg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/segmentation/camshift.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -489,18 +543,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.imtracking" />
       <item index="1" class="java.lang.String" itemvalue="Python.camera_tracker" />
-      <item index="2" class="java.lang.String" itemvalue="Python.feature_tracker" />
-      <item index="3" class="java.lang.String" itemvalue="Python.camaeracontours" />
-      <item index="4" class="java.lang.String" itemvalue="Python.detector" />
-      <item index="5" class="java.lang.String" itemvalue="Python.kalman" />
+      <item index="2" class="java.lang.String" itemvalue="Python.camaeracontours" />
+      <item index="3" class="java.lang.String" itemvalue="Python.detector" />
+      <item index="4" class="java.lang.String" itemvalue="Python.kalman" />
+      <item index="5" class="java.lang.String" itemvalue="Python.camshift" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.kalman" />
-        <item index="1" class="java.lang.String" itemvalue="Python.detector" />
-        <item index="2" class="java.lang.String" itemvalue="Python.camaeracontours" />
-        <item index="3" class="java.lang.String" itemvalue="Python.camera_tracker" />
-        <item index="4" class="java.lang.String" itemvalue="Python.feature_tracker" />
+        <item index="0" class="java.lang.String" itemvalue="Python.camshift" />
+        <item index="1" class="java.lang.String" itemvalue="Python.kalman" />
+        <item index="2" class="java.lang.String" itemvalue="Python.detector" />
+        <item index="3" class="java.lang.String" itemvalue="Python.camaeracontours" />
+        <item index="4" class="java.lang.String" itemvalue="Python.camera_tracker" />
       </list>
     </recent_temporary>
   </component>
@@ -559,7 +613,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tracking/camshift.py</url>
+          <url>file://$PROJECT_DIR$/tracking/segmentation/camshift.py</url>
           <line>41</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
@@ -589,12 +643,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/test/template-2.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/test/template.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/test/t5.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -694,14 +742,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/camshift.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="49" column="53" lean-forward="true" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-1607996850/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -715,13 +755,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tracking/orb_bfmatch.py" />
-    <entry file="file://$PROJECT_DIR$/tracking/tracking-features.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tracking/lab/keypoint_detectors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -780,22 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/camaeracontours.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/imutils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -883,7 +900,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/feature_tracker.py">
+    <entry file="file://$PROJECT_DIR$/tracking/feature_based/feature_tracker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
@@ -894,7 +911,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/kalman.py">
+    <entry file="file://$PROJECT_DIR$/tracking/segmentation/kalman.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
@@ -904,13 +921,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/camera_tracker.py">
+    <entry file="file://$PROJECT_DIR$/tracking/feature_based/camera_tracker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -919,6 +934,56 @@
         <state relative-caret-position="550">
           <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/segmentation/camshift.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="64" column="59" lean-forward="true" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/segmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/feature_based/tracking-features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/lab/camaeracontours.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/imutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/load_object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-902">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

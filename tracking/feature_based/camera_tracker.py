@@ -2,7 +2,7 @@ import cv2
 import numpy    as    np
 from matplotlib import pyplot as plt
 
-from tracking.feature_tracker import FeatureDetector
+from tracking.feature_based.feature_tracker import FeatureDetector
 
 
 class CameraTracker(object):
