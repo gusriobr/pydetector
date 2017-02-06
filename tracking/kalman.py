@@ -10,7 +10,7 @@ def mousemove(event, x, y, s, p):
     last_prediction = current_prediction
     last_measurement = current_measurement
     current_measurement = np.array([[np.float32(x)], [np.float32(y)]])
-    # corregir con la posición actual y predecir
+    # correct current position and predict new location
     kalman.correct(current_measurement)
     current_prediction = kalman.predict()
 
