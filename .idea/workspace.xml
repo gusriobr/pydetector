@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/tracking/lab/measure_keypoints.py" line="19" />
+    <bookmark url="file://$PROJECT_DIR$/tracking/feature_based/feature_tracker.py" line="71" mnemonic="7" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7480352f-31c8-40da-be55-ff032612a6fc" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,111 +22,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="camera_tracker.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracking/feature_based/camera_tracker.py">
+      <file leaf-file-name="keypoint_detectors.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracking/lab/keypoint_detectors.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="camshift.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracking/segmentation/camshift.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="64" column="59" lean-forward="true" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="load_object.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tracking/load_object.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-902">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="7106">
+              <caret line="478" column="0" lean-forward="true" selection-start-line="478" selection-start-column="0" selection-end-line="478" selection-end-column="0" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#187#4397#0" expanded="false" />
+                <element signature="e#635#782#1" expanded="false" />
+                <element signature="e#1439#1703#0" expanded="false" />
+                <element signature="e#1510#1703#0" expanded="false" />
+                <element signature="e#1836#2245#0" expanded="false" />
+                <element signature="e#1836#2006#1" expanded="false" />
+                <element signature="e#2077#2225#0" expanded="false" />
+                <element signature="e#2311#2768#0" expanded="false" />
+                <element signature="e#2311#2484#1" expanded="false" />
+                <element signature="e#2864#3193#0" expanded="false" />
+                <element signature="e#2864#2952#1" expanded="false" />
+                <element signature="e#3253#3940#0" expanded="false" />
+                <element signature="e#3253#3398#1" expanded="false" />
+                <element signature="e#3550#3852#0" expanded="false" />
+                <element signature="e#3594#3852#0" expanded="false" />
+                <element signature="e#4009#4397#0" expanded="false" />
+                <element signature="e#4302#4371#0" expanded="false" />
+                <element signature="e#4432#4950#0" expanded="false" />
+                <element signature="e#5029#5573#0" expanded="false" />
+                <element signature="e#5029#5264#1" expanded="false" />
+                <element signature="e#5446#5573#0" expanded="false" />
+                <element signature="e#5468#5573#0" expanded="false" />
+                <element signature="e#5728#5729#0" expanded="false" />
+                <element signature="e#5926#6084#0" expanded="false" />
+                <element signature="e#6201#6560#0" expanded="false" />
+                <element signature="e#6238#6560#0" expanded="false" />
+                <element signature="e#6640#6794#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tracking-features.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracking/feature_based/tracking-features.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="camaeracontours.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracking/lab/camaeracontours.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imutils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracking/imutils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chapter6.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/book/chapter6.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feature_tracker.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="feature_tracker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tracking/feature_based/feature_tracker.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
-              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+              <caret line="71" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
-                <element signature="e#3437#3501#0" expanded="false" />
-                <element signature="e#6219#6324#0" expanded="false" />
+                <element signature="e#90#512#0" expanded="false" />
+                <element signature="e#230#407#0" expanded="false" />
+                <element signature="e#439#512#0" expanded="false" />
+                <element signature="e#816#1712#0" expanded="false" />
+                <element signature="e#956#1224#0" expanded="false" />
+                <element signature="e#1269#1450#0" expanded="false" />
+                <element signature="e#1501#1712#0" expanded="false" />
+                <element signature="e#1768#2278#0" expanded="false" />
+                <element signature="e#2612#3256#0" expanded="false" />
+                <element signature="e#3312#3349#0" expanded="false" />
+                <element signature="e#3410#5082#0" expanded="false" />
+                <element signature="e#4079#4143#0" expanded="false" />
+                <element signature="e#4278#4544#0" expanded="false" />
+                <element signature="e#4572#4707#0" expanded="false" />
+                <element signature="e#5159#5826#0" expanded="false" />
+                <element signature="e#5159#5222#1" expanded="false" />
+                <element signature="e#5369#5414#0" expanded="false" />
+                <element signature="e#5441#5793#0" expanded="false" />
+                <element signature="e#5904#6151#0" expanded="false" />
+                <element signature="e#5904#5968#1" expanded="false" />
+                <element signature="e#6229#6804#0" expanded="false" />
+                <element signature="e#6229#6293#1" expanded="false" />
+                <element signature="e#6352#6686#0" expanded="false" />
+                <element signature="e#6852#6970#0" expanded="false" />
+                <element signature="e#7019#7123#0" expanded="false" />
+                <marker date="1486422447490" expanded="false" signature="2320:2329" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kalman.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracking/segmentation/kalman.py">
+      <file leaf-file-name="measure_keypoints.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tracking/lab/measure_keypoints.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#201#211#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracking/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -199,6 +181,10 @@
         <option value="$PROJECT_DIR$/tracking/feature_tracker.py" />
         <option value="$PROJECT_DIR$/tracking/kalman.py" />
         <option value="$PROJECT_DIR$/tracking/segmentation.py" />
+        <option value="$PROJECT_DIR$/tracking/lab/keypoint_detectors.py" />
+        <option value="$PROJECT_DIR$/tracking/imutils.py" />
+        <option value="$PROJECT_DIR$/tracking/lab/measure_keypoints.py" />
+        <option value="$PROJECT_DIR$/tracking/feature_based/feature_tracker.py" />
       </list>
     </option>
   </component>
@@ -277,6 +263,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyimg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyimg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="camera" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -303,41 +307,7 @@
       <recent name="$PROJECT_DIR$/tracking" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.camshift">
-    <configuration default="false" name="camera_tracker" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyimg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/local_features/camera_tracker.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="camaeracontours" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyimg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/lab/camaeracontours.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.measure_keypoints">
     <configuration default="false" name="detector" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -385,6 +355,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyimg" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/segmentation/camshift.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="measure_keypoints" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tracking/lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyimg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/lab/measure_keypoints.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="feature_tracker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tracking/feature_based" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyimg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/feature_based/feature_tracker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -542,19 +546,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.imtracking" />
-      <item index="1" class="java.lang.String" itemvalue="Python.camera_tracker" />
-      <item index="2" class="java.lang.String" itemvalue="Python.camaeracontours" />
-      <item index="3" class="java.lang.String" itemvalue="Python.detector" />
-      <item index="4" class="java.lang.String" itemvalue="Python.kalman" />
-      <item index="5" class="java.lang.String" itemvalue="Python.camshift" />
+      <item index="1" class="java.lang.String" itemvalue="Python.detector" />
+      <item index="2" class="java.lang.String" itemvalue="Python.kalman" />
+      <item index="3" class="java.lang.String" itemvalue="Python.camshift" />
+      <item index="4" class="java.lang.String" itemvalue="Python.measure_keypoints" />
+      <item index="5" class="java.lang.String" itemvalue="Python.feature_tracker" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.camshift" />
-        <item index="1" class="java.lang.String" itemvalue="Python.kalman" />
-        <item index="2" class="java.lang.String" itemvalue="Python.detector" />
-        <item index="3" class="java.lang.String" itemvalue="Python.camaeracontours" />
-        <item index="4" class="java.lang.String" itemvalue="Python.camera_tracker" />
+        <item index="0" class="java.lang.String" itemvalue="Python.measure_keypoints" />
+        <item index="1" class="java.lang.String" itemvalue="Python.feature_tracker" />
+        <item index="2" class="java.lang.String" itemvalue="Python.camshift" />
+        <item index="3" class="java.lang.String" itemvalue="Python.kalman" />
+        <item index="4" class="java.lang.String" itemvalue="Python.detector" />
       </list>
     </recent_temporary>
   </component>
@@ -585,18 +589,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1890" height="1055" extended-state="4" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21839699" sideWeight="0.4923664" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21839699" sideWeight="0.4923664" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.49602965" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34310532" sideWeight="0.54922" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34310532" sideWeight="0.45077997" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34310532" sideWeight="0.5535234" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34310532" sideWeight="0.4464766" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2854054" sideWeight="0.46903124" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25330687" sideWeight="0.50763357" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3626493" sideWeight="0.46388444" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3626493" sideWeight="0.4599247" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -627,6 +631,11 @@
           <line>22</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tracking/imutils.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -638,16 +647,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="122" />
+      <option name="time" value="124" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/test/t5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/test/t6.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -742,55 +746,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-1607996850/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="2228" column="4" lean-forward="false" selection-start-line="2228" selection-start-column="4" selection-end-line="2228" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/wave.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tracking/orb_bfmatch.py" />
-    <entry file="file://$PROJECT_DIR$/tracking/lab/keypoint_detectors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#187#4397#0" expanded="false" />
-            <element signature="e#635#782#1" expanded="false" />
-            <element signature="e#1439#1703#0" expanded="false" />
-            <element signature="e#1510#1703#0" expanded="false" />
-            <element signature="e#1836#2245#0" expanded="false" />
-            <element signature="e#1836#2006#1" expanded="false" />
-            <element signature="e#2077#2225#0" expanded="false" />
-            <element signature="e#2311#2768#0" expanded="false" />
-            <element signature="e#2311#2484#1" expanded="false" />
-            <element signature="e#2864#3193#0" expanded="false" />
-            <element signature="e#2864#2952#1" expanded="false" />
-            <element signature="e#3253#3940#0" expanded="false" />
-            <element signature="e#3253#3398#1" expanded="false" />
-            <element signature="e#3550#3852#0" expanded="false" />
-            <element signature="e#3594#3852#0" expanded="false" />
-            <element signature="e#4009#4397#0" expanded="false" />
-            <element signature="e#4302#4371#0" expanded="false" />
-            <element signature="e#4432#4950#0" expanded="false" />
-            <element signature="e#5029#5573#0" expanded="false" />
-            <element signature="e#5029#5264#1" expanded="false" />
-            <element signature="e#5446#5573#0" expanded="false" />
-            <element signature="e#5468#5573#0" expanded="false" />
-            <element signature="e#5728#5729#0" expanded="false" />
-            <element signature="e#5926#6084#0" expanded="false" />
-            <element signature="e#6201#6560#0" expanded="false" />
-            <element signature="e#6238#6560#0" expanded="false" />
-            <element signature="e#6640#6794#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/camera/calibration.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -882,16 +843,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/book/chapter6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tracking/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -900,23 +851,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/feature_based/feature_tracker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-          <folding>
-            <element signature="e#3437#3501#0" expanded="false" />
-            <element signature="e#6219#6324#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tracking/segmentation/kalman.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -969,20 +909,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/imutils.py">
+    <entry file="file://$PROJECT_DIR$/tracking/load_object.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="440">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book/chapter6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-1607996850/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="1864" column="4" lean-forward="false" selection-start-line="1864" selection-start-column="4" selection-end-line="1864" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/load_object.py">
+    <entry file="file://$PROJECT_DIR$/tracking/imutils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-902">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="225">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/lab/keypoint_detectors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7106">
+          <caret line="478" column="0" lean-forward="true" selection-start-line="478" selection-start-column="0" selection-end-line="478" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#187#4397#0" expanded="false" />
+            <element signature="e#635#782#1" expanded="false" />
+            <element signature="e#1439#1703#0" expanded="false" />
+            <element signature="e#1510#1703#0" expanded="false" />
+            <element signature="e#1836#2245#0" expanded="false" />
+            <element signature="e#1836#2006#1" expanded="false" />
+            <element signature="e#2077#2225#0" expanded="false" />
+            <element signature="e#2311#2768#0" expanded="false" />
+            <element signature="e#2311#2484#1" expanded="false" />
+            <element signature="e#2864#3193#0" expanded="false" />
+            <element signature="e#2864#2952#1" expanded="false" />
+            <element signature="e#3253#3940#0" expanded="false" />
+            <element signature="e#3253#3398#1" expanded="false" />
+            <element signature="e#3550#3852#0" expanded="false" />
+            <element signature="e#3594#3852#0" expanded="false" />
+            <element signature="e#4009#4397#0" expanded="false" />
+            <element signature="e#4302#4371#0" expanded="false" />
+            <element signature="e#4432#4950#0" expanded="false" />
+            <element signature="e#5029#5573#0" expanded="false" />
+            <element signature="e#5029#5264#1" expanded="false" />
+            <element signature="e#5446#5573#0" expanded="false" />
+            <element signature="e#5468#5573#0" expanded="false" />
+            <element signature="e#5728#5729#0" expanded="false" />
+            <element signature="e#5926#6084#0" expanded="false" />
+            <element signature="e#6201#6560#0" expanded="false" />
+            <element signature="e#6238#6560#0" expanded="false" />
+            <element signature="e#6640#6794#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/lab/measure_keypoints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#201#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/feature_based/feature_tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="e#90#512#0" expanded="false" />
+            <element signature="e#230#407#0" expanded="false" />
+            <element signature="e#439#512#0" expanded="false" />
+            <element signature="e#816#1712#0" expanded="false" />
+            <element signature="e#956#1224#0" expanded="false" />
+            <element signature="e#1269#1450#0" expanded="false" />
+            <element signature="e#1501#1712#0" expanded="false" />
+            <element signature="e#1768#2278#0" expanded="false" />
+            <element signature="e#2612#3256#0" expanded="false" />
+            <element signature="e#3312#3349#0" expanded="false" />
+            <element signature="e#3410#5082#0" expanded="false" />
+            <element signature="e#4079#4143#0" expanded="false" />
+            <element signature="e#4278#4544#0" expanded="false" />
+            <element signature="e#4572#4707#0" expanded="false" />
+            <element signature="e#5159#5826#0" expanded="false" />
+            <element signature="e#5159#5222#1" expanded="false" />
+            <element signature="e#5369#5414#0" expanded="false" />
+            <element signature="e#5441#5793#0" expanded="false" />
+            <element signature="e#5904#6151#0" expanded="false" />
+            <element signature="e#5904#5968#1" expanded="false" />
+            <element signature="e#6229#6804#0" expanded="false" />
+            <element signature="e#6229#6293#1" expanded="false" />
+            <element signature="e#6352#6686#0" expanded="false" />
+            <element signature="e#6852#6970#0" expanded="false" />
+            <element signature="e#7019#7123#0" expanded="false" />
+            <marker date="1486422447490" expanded="false" signature="2320:2329" ph="..." />
           </folding>
         </state>
       </provider>
