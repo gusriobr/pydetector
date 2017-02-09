@@ -1,4 +1,4 @@
-This data is the outcomo of applying the measure_keypoints.py script to two test images.
+This data is the outcome of applying the measure_keypoints.py script to two test images.
 Orb performs much better than brisk in time and Brisk is able to find more relevant points for the test image.
 
 

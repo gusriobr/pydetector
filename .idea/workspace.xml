@@ -6,13 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7480352f-31c8-40da-be55-ff032612a6fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/feature_based/feature_tracker.py" afterPath="$PROJECT_DIR$/tracking/feature_based/feature_tracker.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/lab/keypoint_detectors.py" afterPath="$PROJECT_DIR$/tracking/lab/keypoint_detectors.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/lab/measure_keypoints.py" afterPath="$PROJECT_DIR$/tracking/lab/measure_keypoints.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt" afterPath="$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +39,8 @@
       <file leaf-file-name="brisk_vs_orb_results.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="109" lean-forward="false" selection-start-line="1" selection-start-column="109" selection-end-line="1" selection-end-column="109" />
+            <state relative-caret-position="0">
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -856,8 +850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="109" lean-forward="false" selection-start-line="1" selection-start-column="109" selection-end-line="1" selection-end-column="109" />
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
           <folding />
         </state>
       </provider>
