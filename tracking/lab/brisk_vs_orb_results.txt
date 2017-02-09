@@ -1,0 +1,45 @@
+This data is the outcomo of applying the measure_keypoints.py script to two test images.
+Orb performs much better than brisk in time and Brisk is able to find more relevant points for the test image.
+
+
+Image	Method	poc	train kps	qry kps	matches	good	rate	time(ms)
+book_cover.jpg	orb	0.2	0	445	0	0	0.00%	5.12
+book_cover.jpg	brisk	0.2	2	628	628	29	4.62%	752.53
+book_cover.jpg	orb	0.3	3	445	445	14	3.15%	13.51
+book_cover.jpg	brisk	0.3	22	628	628	16	2.55%	766.44
+book_cover.jpg	orb	0.4	53	445	445	27	6.07%	14.93
+book_cover.jpg	brisk	0.4	51	628	628	33	5.25%	725.35
+book_cover.jpg	orb	0.6	225	445	445	39	8.76%	9.46
+book_cover.jpg	brisk	0.6	130	628	628	67	10.67%	725.97
+book_cover.jpg	orb	0.7	295	445	445	58	13.03%	11.92
+book_cover.jpg	brisk	0.7	169	628	628	88	14.01%	727.41
+book_cover.jpg	orb	0.8	353	445	445	77	17.30%	11.68
+book_cover.jpg	brisk	0.8	222	628	628	124	19.75%	761.54
+book_cover.jpg	orb	0.9	395	445	445	78	17.53%	16.66
+book_cover.jpg	brisk	0.9	265	628	628	168	26.75%	750.08
+book_cover.jpg	orb	1.0	430	445	445	123	27.64%	12.89
+book_cover.jpg	brisk	1.0	422	628	628	284	45.22%	739.66
+book_cover.jpg	orb	1.2	471	445	445	94	21.12%	13.93
+book_cover.jpg	brisk	1.2	438	628	628	185	29.46%	798.36
+book_cover.jpg	orb	1.6	500	445	445	60	13.48%	16.71
+book_cover.jpg	brisk	1.6	747	628	628	134	21.34%	751.58
+toy.jpg	orb	0.2	0	480	0	0	0.00%	7.28
+toy.jpg	brisk	0.2	9	283	283	5	1.77%	721.95
+toy.jpg	orb	0.3	30	480	480	19	3.96%	8.75
+toy.jpg	brisk	0.3	40	283	283	13	4.59%	713.83
+toy.jpg	orb	0.4	114	480	480	53	11.04%	10.11
+toy.jpg	brisk	0.4	60	283	283	19	6.71%	717.11
+toy.jpg	orb	0.6	262	480	480	133	27.71%	13.11
+toy.jpg	brisk	0.6	102	283	283	48	16.96%	717.57
+toy.jpg	orb	0.7	329	480	480	191	39.79%	15.26
+toy.jpg	brisk	0.7	124	283	283	70	24.73%	717.30
+toy.jpg	orb	0.8	389	480	480	188	39.17%	16.14
+toy.jpg	brisk	0.8	159	283	283	81	28.62%	715.44
+toy.jpg	orb	0.9	434	480	480	197	41.04%	17.91
+toy.jpg	brisk	0.9	174	283	283	90	31.80%	717.28
+toy.jpg	orb	1.0	466	480	480	316	65.83%	17.91
+toy.jpg	brisk	1.0	292	283	283	183	64.66%	722.42
+toy.jpg	orb	1.2	490	480	480	275	57.29%	19.25
+toy.jpg	brisk	1.2	237	283	283	104	36.75%	718.79
+toy.jpg	orb	1.6	500	480	480	113	23.54%	19.93
+toy.jpg	brisk	1.6	281	283	283	81	28.62%	723.26

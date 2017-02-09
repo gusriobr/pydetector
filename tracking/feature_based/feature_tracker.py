@@ -34,9 +34,11 @@ class FeatureDetector():
         self.alg = detector.upper()
         self.stats = FeatureStats();
         if detector == "orb":
-            self.detector_q = cv2.ORB_create(nfeatures=200, scoreType=cv2.ORB_HARRIS_SCORE)
+            # self.detector_q = cv2.ORB_create(nfeatures=200, scoreType=cv2.ORB_HARRIS_SCORE)
+            self.detector_q = cv2.ORB_create()
             self.descriptor_q = self.detector_q
-            self.detector_i = cv2.ORB_create(nfeatures=1000, scoreType=cv2.ORB_HARRIS_SCORE)
+            # self.detector_i = cv2.ORB_create(nfeatures=1000, scoreType=cv2.ORB_HARRIS_SCORE)
+            self.detector_i = cv2.ORB_create()
             self.descriptor_i = self.detector_i
         if detector == "brisk":
             self.detector_q = cv2.BRISK_create()

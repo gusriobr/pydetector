@@ -478,8 +478,7 @@ def kaze_match(query, train):
 
 
 if __name__ == '__main__':
-    test_orb_camera_detector('../images/test/templates/pawpatrol-plane.jpg')
-    #test_akaze_camera_detector('../images/test/templates/pawpatrol-plane.jpg')
+    test_orb_camera_detector('../../resources/images/book-cover.jpg')
 
     # query= cv2.imread('../images/test2/template.jpg', cv2.IMREAD_GRAYSCALE)
     # train = cv2.imread('../images/test2/t1.jpg', cv2.IMREAD_GRAYSCALE)
