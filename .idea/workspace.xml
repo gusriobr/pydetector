@@ -7,6 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7480352f-31c8-40da-be55-ff032612a6fc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt" afterPath="$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/lab/measure_keypoints.py" afterPath="$PROJECT_DIR$/tracking/lab/measure_keypoints.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="measure_keypoints.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="measure_keypoints.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tracking/lab/measure_keypoints.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="241">
+              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding>
                 <element signature="e#201#212#0" expanded="true" />
               </folding>
@@ -36,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brisk_vs_orb_results.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="brisk_vs_orb_results.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+            <state relative-caret-position="88">
+              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -156,8 +157,8 @@
         <option value="$PROJECT_DIR$/tracking/imutils.py" />
         <option value="$PROJECT_DIR$/tracking/lab/keypoint_detectors.py" />
         <option value="$PROJECT_DIR$/tracking/feature_based/feature_tracker.py" />
-        <option value="$PROJECT_DIR$/tracking/lab/measure_keypoints.py" />
         <option value="$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt" />
+        <option value="$PROJECT_DIR$/tracking/lab/measure_keypoints.py" />
       </list>
     </option>
   </component>
@@ -838,21 +839,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/lab/measure_keypoints.py">
+    <entry file="file://$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#201#212#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt">
+    <entry file="file://$PROJECT_DIR$/tracking/lab/measure_keypoints.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="241">
+          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="e#201#212#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

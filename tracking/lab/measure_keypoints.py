@@ -39,7 +39,7 @@ if __name__ == '__main__':
             ]
 
     # header
-    print "Image\tMethod\tpoc\ttrain kps\tqry kps\tmatches\tgood\trate\ttime(ms)"
+    print "Image\tMethod\tscale%\ttrain kps\tqry kps\tmatches\tgood\trate\ttime(ms)"
     for porc, method, img_path in list:
         image = cv2.imread(img_path)
         img_name = os.path.basename(img_path)
