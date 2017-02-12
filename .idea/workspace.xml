@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/tracking/lab/measure_keypoints.py" line="20" />
-    <bookmark url="file://$PROJECT_DIR$/tracking/feature_based/feature_tracker.py" line="73" mnemonic="7" />
+    <bookmark url="file://$PROJECT_DIR$/tracking/lab/measure_keypoints.py" line="22" />
+    <bookmark url="file://$PROJECT_DIR$/tracking/feature_based/feature_tracker.py" line="71" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7480352f-31c8-40da-be55-ff032612a6fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt" afterPath="$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tracking/lab/capture_util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tracking/lab/mil_tracker.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tracking/segmentation/blobDetector.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/imutils.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tracking/imutils.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CMT/CMT.py" afterPath="$PROJECT_DIR$/../CMT/CMT.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CMT/run.py" afterPath="$PROJECT_DIR$/../CMT/run.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pyimg.iml" afterPath="$PROJECT_DIR$/.idea/pyimg.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/feature_based/camera_tracker.py" afterPath="$PROJECT_DIR$/tracking/feature_based/camera_tracker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/feature_based/feature_tracker.py" afterPath="$PROJECT_DIR$/tracking/feature_based/feature_tracker.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tracking/lab/measure_keypoints.py" afterPath="$PROJECT_DIR$/tracking/lab/measure_keypoints.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,56 +38,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="measure_keypoints.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tracking/lab/measure_keypoints.py">
+      <file leaf-file-name="camera_tracker.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tracking/feature_based/camera_tracker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-              <folding>
-                <element signature="e#201#212#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="brisk_vs_orb_results.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="289">
+              <caret line="154" column="41" lean-forward="true" selection-start-line="154" selection-start-column="41" selection-end-line="154" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="feature_tracker.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tracking/feature_based/feature_tracker.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-1607996850/cv2/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-              <folding>
-                <element signature="e#1367#1548#0" expanded="false" />
-                <element signature="e#1599#1810#0" expanded="false" />
-                <element signature="e#1866#2376#0" expanded="false" />
-                <element signature="e#2710#3354#0" expanded="false" />
-                <element signature="e#3410#3447#0" expanded="false" />
-                <element signature="e#3508#5180#0" expanded="false" />
-                <element signature="e#4177#4241#0" expanded="false" />
-                <element signature="e#4376#4642#0" expanded="false" />
-                <element signature="e#4670#4805#0" expanded="false" />
-                <element signature="e#5257#5924#0" expanded="false" />
-                <element signature="e#5257#5320#1" expanded="false" />
-                <element signature="e#5467#5512#0" expanded="false" />
-                <element signature="e#5539#5891#0" expanded="false" />
-                <element signature="e#6002#6249#0" expanded="false" />
-                <element signature="e#6002#6066#1" expanded="false" />
-                <element signature="e#6327#6902#0" expanded="false" />
-                <element signature="e#6327#6391#1" expanded="false" />
-                <element signature="e#6450#6784#0" expanded="false" />
-                <element signature="e#6950#7068#0" expanded="false" />
-                <element signature="e#7117#7221#0" expanded="false" />
-                <marker date="1486613477930" expanded="false" signature="2418:2427" ph="..." />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="3088" column="18" lean-forward="false" selection-start-line="3088" selection-start-column="4" selection-end-line="3088" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../CMT/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="138" column="15" lean-forward="true" selection-start-line="138" selection-start-column="15" selection-end-line="138" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,11 +79,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_check_factor</find>
-      <find>patch</find>
-      <find>plot_m</find>
-      <find>get_harris_image</find>
-      <find>imsho</find>
       <find>get_pyramids</find>
       <find>impat</find>
       <find>filte</find>
@@ -120,6 +104,11 @@
       <find>orb</find>
       <find>tag_obje</find>
       <find>tag_object_by_convex_hull</find>
+      <find>inputpath</find>
+      <find>drag</find>
+      <find>cv2.</find>
+      <find>get_re</find>
+      <find>detector.</find>
     </findStrings>
     <replaceStrings>
       <replace>kp</replace>
@@ -154,17 +143,23 @@
         <option value="$PROJECT_DIR$/tracking/feature_tracker.py" />
         <option value="$PROJECT_DIR$/tracking/kalman.py" />
         <option value="$PROJECT_DIR$/tracking/segmentation.py" />
-        <option value="$PROJECT_DIR$/tracking/imutils.py" />
         <option value="$PROJECT_DIR$/tracking/lab/keypoint_detectors.py" />
-        <option value="$PROJECT_DIR$/tracking/feature_based/feature_tracker.py" />
         <option value="$PROJECT_DIR$/tracking/lab/brisk_vs_orb_results.txt" />
         <option value="$PROJECT_DIR$/tracking/lab/measure_keypoints.py" />
+        <option value="$PROJECT_DIR$/tracking/imutils.py" />
+        <option value="$PROJECT_DIR$/utils/imutils.py" />
+        <option value="$PROJECT_DIR$/tracking/segmentation/blobDetector.py" />
+        <option value="$PROJECT_DIR$/../CMT/CMT.py" />
+        <option value="$PROJECT_DIR$/../CMT/run.py" />
+        <option value="$PROJECT_DIR$/tracking/feature_based/feature_tracker.py" />
+        <option value="$PROJECT_DIR$/tracking/lab/mil_tracker.py" />
+        <option value="$PROJECT_DIR$/tracking/feature_based/camera_tracker.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="25" />
-    <option name="width" value="1880" />
+    <option name="width" value="1910" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -186,6 +181,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -195,12 +191,13 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,7 +206,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.13 (~/apps/tools/anaconda3/envs/cvision/bin/python2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="pyimg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.13 (~/apps/tools/anaconda3/envs/cvision/bin/python2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="-1607996850" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PySkeletonsNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyimg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.13 (~/apps/tools/anaconda3/envs/cvision/bin/python2) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="-1607996850" />
+              <option name="myItemType" value="com.jetbrains.python.projectView.PySkeletonsNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cv2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -219,54 +260,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pyimg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tracking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pyimg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pyimg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tracking" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pyimg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pyimg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="CMT" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,52 +275,36 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utils" />
       <recent name="$PROJECT_DIR$/tracking/lab" />
       <recent name="$PROJECT_DIR$/tracking/feature_based" />
       <recent name="$PROJECT_DIR$/tracking/segmentation" />
       <recent name="$PROJECT_DIR$/tracking/local_features" />
-      <recent name="$PROJECT_DIR$/book" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tracking/lab" />
       <recent name="$PROJECT_DIR$/tracking" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.measure_keypoints">
-    <configuration default="false" name="kalman" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.camera_tracker">
+    <configuration default="false" name="blobDetector" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tracking" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tracking/segmentation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyimg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/segmentation/kalman.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/segmentation/blobDetector.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="camshift" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyimg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/segmentation/camshift.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="measure_keypoints" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="mil_tracker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -332,12 +316,46 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyimg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/lab/measure_keypoints.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/lab/mil_tracker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="feature_tracker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="camaeracontours" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tracking/lab" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyimg" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/lab/camaeracontours.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CMT" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CMT" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CMT/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="camera_tracker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -349,24 +367,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyimg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/feature_based/feature_tracker.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="keypoint_detectors" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tracking/lab" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyimg" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/lab/keypoint_detectors.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tracking/feature_based/camera_tracker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -524,19 +525,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.imtracking" />
-      <item index="1" class="java.lang.String" itemvalue="Python.kalman" />
-      <item index="2" class="java.lang.String" itemvalue="Python.camshift" />
-      <item index="3" class="java.lang.String" itemvalue="Python.measure_keypoints" />
-      <item index="4" class="java.lang.String" itemvalue="Python.feature_tracker" />
-      <item index="5" class="java.lang.String" itemvalue="Python.keypoint_detectors" />
+      <item index="1" class="java.lang.String" itemvalue="Python.blobDetector" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mil_tracker" />
+      <item index="3" class="java.lang.String" itemvalue="Python.camaeracontours" />
+      <item index="4" class="java.lang.String" itemvalue="Python.run" />
+      <item index="5" class="java.lang.String" itemvalue="Python.camera_tracker" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.measure_keypoints" />
-        <item index="1" class="java.lang.String" itemvalue="Python.keypoint_detectors" />
-        <item index="2" class="java.lang.String" itemvalue="Python.feature_tracker" />
-        <item index="3" class="java.lang.String" itemvalue="Python.camshift" />
-        <item index="4" class="java.lang.String" itemvalue="Python.kalman" />
+        <item index="0" class="java.lang.String" itemvalue="Python.camera_tracker" />
+        <item index="1" class="java.lang.String" itemvalue="Python.run" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mil_tracker" />
+        <item index="3" class="java.lang.String" itemvalue="Python.camaeracontours" />
+        <item index="4" class="java.lang.String" itemvalue="Python.blobDetector" />
       </list>
     </recent_temporary>
   </component>
@@ -566,19 +567,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1880" height="1055" extended-state="4" />
+    <frame x="0" y="25" width="1910" height="1055" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21741483" sideWeight="0.4923664" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21394359" sideWeight="0.4923664" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.49602965" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34276387" sideWeight="0.55543536" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34276387" sideWeight="0.44456464" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36235037" sideWeight="0.5609367" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34276387" sideWeight="0.42788717" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2854054" sideWeight="0.46903124" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2854054" sideWeight="0.46903124" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25330687" sideWeight="0.50763357" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3626493" sideWeight="0.4599247" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36235037" sideWeight="0.43906334" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -610,9 +611,34 @@
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tracking/imutils.py</url>
-          <line>40</line>
+          <url>file://$PROJECT_DIR$/utils/imutils.py</url>
+          <line>43</line>
           <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tracking/segmentation/blobDetector.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tracking/segmentation/blobDetector.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tracking/segmentation/blobDetector.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../CMT/run.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tracking/feature_based/camera_tracker.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="140" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -625,20 +651,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="124" />
+      <option name="time" value="141" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/test/templates/pawpatrol-plane.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/test/t1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/test/t2.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/test/t20.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/test/t10.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/test/t9.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/test/t10-med.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/test/t8.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/test/t7.jpg" />
     <entry file="file://$PROJECT_DIR$/images/test/t3.jpg" />
     <entry file="file://$PROJECT_DIR$/images/test/templates/template-2.jpg" />
     <entry file="file://$PROJECT_DIR$/images/test/templates/template.jpg" />
@@ -698,13 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/feature_based/camera_tracker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tracking/detector.py" />
     <entry file="file://$PROJECT_DIR$/tracking/segmentation/camshift.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -715,13 +725,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tracking/segmentation.py" />
-    <entry file="file://$PROJECT_DIR$/tracking/lab/camaeracontours.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tracking/load_object.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -736,47 +739,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-1607996850/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="1864" column="4" lean-forward="false" selection-start-line="1864" selection-start-column="4" selection-end-line="1864" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/imutils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/images/book_cover.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/tracking/lab/measure_keypoints.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="115" column="12" lean-forward="true" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
+        <state relative-caret-position="594">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/feature_based/tracking-features.py">
+    <entry file="file://$USER_HOME$/apps/tools/anaconda3/envs/cvision/lib/python2.7/site-packages/path.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="1565" column="8" lean-forward="false" selection-start-line="1565" selection-start-column="8" selection-end-line="1565" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/apps/tools/anaconda3/envs/cvision/lib/python2.7/site-packages/skimage/feature/censure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="209" column="44" lean-forward="true" selection-start-line="209" selection-start-column="44" selection-end-line="209" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/segmentation/blobDetector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tracking/lab/keypoint_detectors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1196">
-          <caret line="410" column="4" lean-forward="false" selection-start-line="410" selection-start-column="4" selection-end-line="410" selection-end-column="4" />
+        <state relative-caret-position="5830">
+          <caret line="420" column="0" lean-forward="false" selection-start-line="420" selection-start-column="0" selection-end-line="420" selection-end-column="0" />
           <folding>
             <element signature="e#187#4397#0" expanded="false" />
             <element signature="e#635#782#1" expanded="false" />
@@ -809,33 +811,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/feature_based/feature_tracker.py">
+    <entry file="file://$PROJECT_DIR$/tracking/lab/camaeracontours.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-          <folding>
-            <element signature="e#1367#1548#0" expanded="false" />
-            <element signature="e#1599#1810#0" expanded="false" />
-            <element signature="e#1866#2376#0" expanded="false" />
-            <element signature="e#2710#3354#0" expanded="false" />
-            <element signature="e#3410#3447#0" expanded="false" />
-            <element signature="e#3508#5180#0" expanded="false" />
-            <element signature="e#4177#4241#0" expanded="false" />
-            <element signature="e#4376#4642#0" expanded="false" />
-            <element signature="e#4670#4805#0" expanded="false" />
-            <element signature="e#5257#5924#0" expanded="false" />
-            <element signature="e#5257#5320#1" expanded="false" />
-            <element signature="e#5467#5512#0" expanded="false" />
-            <element signature="e#5539#5891#0" expanded="false" />
-            <element signature="e#6002#6249#0" expanded="false" />
-            <element signature="e#6002#6066#1" expanded="false" />
-            <element signature="e#6327#6902#0" expanded="false" />
-            <element signature="e#6327#6391#1" expanded="false" />
-            <element signature="e#6450#6784#0" expanded="false" />
-            <element signature="e#6950#7068#0" expanded="false" />
-            <element signature="e#7117#7221#0" expanded="false" />
-            <marker date="1486613477930" expanded="false" signature="2418:2427" ph="..." />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -843,17 +822,112 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CMT/CMT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/imutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="84" column="38" lean-forward="false" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+          <folding>
+            <element signature="e#32#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CMT/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/lab/capture_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="54" column="35" lean-forward="true" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CMT/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="77" column="58" lean-forward="true" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/feature_based/feature_tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="187" column="0" lean-forward="true" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+          <folding>
+            <element signature="e#1501#1712#0" expanded="false" />
+            <element signature="e#1768#2278#0" expanded="false" />
+            <element signature="e#3312#3349#0" expanded="false" />
+            <element signature="e#3410#5082#0" expanded="false" />
+            <element signature="e#4079#4143#0" expanded="false" />
+            <element signature="e#4278#4544#0" expanded="false" />
+            <element signature="e#4572#4707#0" expanded="false" />
+            <element signature="e#5159#5826#0" expanded="false" />
+            <element signature="e#5159#5222#1" expanded="false" />
+            <element signature="e#5369#5414#0" expanded="false" />
+            <element signature="e#5441#5793#0" expanded="false" />
+            <element signature="e#5904#6151#0" expanded="false" />
+            <element signature="e#5904#5968#1" expanded="false" />
+            <element signature="e#6229#6804#0" expanded="false" />
+            <element signature="e#6229#6293#1" expanded="false" />
+            <element signature="e#6352#6686#0" expanded="false" />
+            <element signature="e#7071#7175#0" expanded="false" />
+            <marker date="1486797794691" expanded="false" signature="2320:2329" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/feature_based/tracking-features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CMT/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="138" column="15" lean-forward="true" selection-start-line="138" selection-start-column="15" selection-end-line="138" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tracking/lab/measure_keypoints.py">
+    <entry file="file://$PROJECT_DIR$/tracking/lab/mil_tracker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        <state relative-caret-position="154">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="33" />
           <folding>
-            <element signature="e#201#212#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-1607996850/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="3088" column="18" lean-forward="false" selection-start-line="3088" selection-start-column="4" selection-end-line="3088" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracking/feature_based/camera_tracker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="154" column="41" lean-forward="true" selection-start-line="154" selection-start-column="41" selection-end-line="154" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

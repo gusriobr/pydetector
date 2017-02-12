@@ -72,8 +72,7 @@ class CameraTracker(object):
                         # extract selected imagen
                         x0, y0, x1, y1 = self.selection
                         #img = self.extract_foreground(self.frame, self.selection)
-                        img = self.frame[y0:y1, x0:x1]
-                        self.detector.set_query_image(img)
+                        self.detector.set_query_image(self.frame, (x0, y0),(x1, y1))
 
 
     def start_tracking(self):
@@ -98,7 +97,6 @@ class CameraTracker(object):
 
             if self.tracking_state == 1:
                 self.selection = None
-                #	Compute	the	histogram	back	projection
                 view = self.detector.find_query_image(view)
 
             cv2.imshow('Object	Tracker', view)
@@ -111,20 +109,52 @@ class CameraTracker(object):
 class SimpleDetector():
     query_image = None
 
-    def set_query_image(self, image):
+    def set_query_image(self, img, tl, br):
+        image = img[tl[0]:br[0], tl[1]:br[1]]
         plt.imshow(image),plt.show()
         self.query_image = image
 
     def find_query_image(self, image):
         return image
 
+class TrackerDetector():
+    tracker = None
+    tracker_type = None
+    init_w = None
+    init_h = None
 
+    def __init__(self, tracker_type):
+        self.tracker_type = tracker_type
 
+    def set_query_image(self, img, tl, br):
+        self.tracker = cv2.Tracker_create(self.tracker_type)
+        bbox = (tl[0], tl[1], br[0], br[1])
+        bbox = (638.0, 230.0, 56.0, 101.0)
+        self.init_h = (br[1]-tl[1])
+        self.init_w = (br[0]-tl[0])
+        rect = (tl[0], tl[1], self.init_w,self.init_h) # (x_tl, y_tl, w, h)
+        ok = self.tracker.init(img, rect)
 
+    def find_query_image(self, image):
+        ok, newbox = self.tracker.update(image)
+        p1 = (int(newbox[0]), int(newbox[1]))
+        p2 = (int(newbox[0] + newbox[2]), int(newbox[1] + newbox[3]))
+        if(newbox[2] == 0 or newbox[3] == 0) and (newbox[0]!= 0 and  newbox[1]!= 0):
+            newbox[0]!= 0 and  newbox[1]!= 0
+            # KCF tracker has a bug in python
+            # https://github.com/opencv/opencv_contrib/issues/640
+            p = (int(newbox[0]+self.init_w), int(newbox[1]+self.init_h))
+            cv2.circle(image, center=p, radius=10, color=(200, 0, 0), thickness=-1, );
+        else:
+            cv2.rectangle(image, p1, p2, (200, 0, 0))
+
+        return image
 
 if __name__ == '__main__':
     ctracker = CameraTracker()
     #ctracker.detector = SimpleDetector()
-    ctracker.detector = FeatureDetector("brisk")
+    # ctracker.detector = FeatureDetector("brisk")
+    # MIL, BOOSTING, MEDIANFLOW, TLD and KCF
+    ctracker.detector = TrackerDetector("KCF")
 
     ctracker.start_tracking()

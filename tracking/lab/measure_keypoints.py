@@ -5,10 +5,12 @@
 of the image
 """
 
-import time
-import cv2
 import os
-import tracking.imutils as imu
+import time
+
+import cv2
+
+import utils.imutils as imu
 from tracking.feature_based.feature_tracker import FeatureDetector
 
 

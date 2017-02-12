@@ -34,11 +34,9 @@ class FeatureDetector():
         self.alg = detector.upper()
         self.stats = FeatureStats();
         if detector == "orb":
-            # self.detector_q = cv2.ORB_create(nfeatures=200, scoreType=cv2.ORB_HARRIS_SCORE)
-            self.detector_q = cv2.ORB_create()
+            self.detector_q = cv2.ORB_create(nfeatures=200, scoreType=cv2.ORB_HARRIS_SCORE)
             self.descriptor_q = self.detector_q
-            # self.detector_i = cv2.ORB_create(nfeatures=1000, scoreType=cv2.ORB_HARRIS_SCORE)
-            self.detector_i = cv2.ORB_create()
+            self.detector_i = cv2.ORB_create(nfeatures=1000, scoreType=cv2.ORB_HARRIS_SCORE)
             self.descriptor_i = self.detector_i
         if detector == "brisk":
             self.detector_q = cv2.BRISK_create()
@@ -183,7 +181,8 @@ class FeatureDetector():
 
         return img2, matchesMask
 
-    def set_query_image(self, image):
+    def set_query_image(self, img, tl, br):
+        image = img[tl[1]:br[1], tl[0]:br[0]]
         self.query_image_proc = self.pre_process_query_image(image)
         self.stats.num_query_kpts = len(self.query_keypts)
 
