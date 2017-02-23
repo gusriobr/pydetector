@@ -153,8 +153,8 @@ class TrackerDetector():
 if __name__ == '__main__':
     ctracker = CameraTracker()
     #ctracker.detector = SimpleDetector()
-    # ctracker.detector = FeatureDetector("brisk")
+    ctracker.detector = FeatureDetector("brisk")
     # MIL, BOOSTING, MEDIANFLOW, TLD and KCF
-    ctracker.detector = TrackerDetector("KCF")
+    # ctracker.detector = TrackerDetector("KCF")
 
     ctracker.start_tracking()
